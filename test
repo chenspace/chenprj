@@ -1,0 +1,8 @@
+	/**
+	 * @description: 获取当前用户的单位编号
+	 * @param: 
+	 * @return：单位编号
+	 */
+	public String getUserOrgNo() {
+		return StruObjectFactory.getCorporationOfEmployee(getOrgID()).getOrganCode();
+	}
